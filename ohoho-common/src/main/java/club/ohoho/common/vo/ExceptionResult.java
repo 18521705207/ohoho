@@ -20,4 +20,5 @@ public class ExceptionResult {
         this.message = e.getMessage();
         this.timestamp = DateTime.now().toString("yyyy-MM-dd HH:mm:ss");
     }
+
 }
